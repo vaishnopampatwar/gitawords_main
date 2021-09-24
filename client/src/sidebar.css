@@ -1,0 +1,10 @@
+.side_back{
+    height: 100vh;
+    width: 100px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.but{
+    margin-bottom: 30px;
+}

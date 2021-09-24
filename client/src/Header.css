@@ -1,0 +1,120 @@
+body{
+    overflow-x: hidden;
+}
+.Header_back{
+    background-image: url("./img/head2.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin-top: -58px;
+    position: relative;
+}
+.Header_head p{
+    font-size: 50px;
+    color: #1b1a1a;
+    font-weight: bolder;
+}
+.Header_head{
+    position: relative;
+}
+.Header_back h1{
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  transform: translate(-27%, -50%);
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  text-shadow: 0 0 20px #0e0d0d;
+}
+.head_color{
+    color:#d4a524;
+    font-style: italic;
+}
+/* rgb(231, 38, 80) */
+
+
+@keyframes ball{
+    0%{
+        top:0;
+    }
+    100%{
+        top:100%;
+    }
+}
+.ic_anim{
+    position: relative;
+}
+.ic{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    z-index: -1;
+    opacity: 0.5;
+        animation-name: ball;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+}
+.ic1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20%;
+    top: 0;
+    opacity: 0.5;
+    z-index: -1;
+        animation-name: ball;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+}
+.ic2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:90%;
+    top: 20%;
+    opacity: 0.5;
+    z-index: -1;
+        animation-name: ball;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+}
+
+.chat_icon{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    font-size: 80px;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+    z-index: 999;
+
+}
+.chat_box{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    width: 400px;
+    height: 75vh;
+    background: rgb(245, 182, 182);
+    transition: all 0.3s ease-out;
+    transform: scaleY(0);
+}
+.chat_box.active{
+    transition: all 0.3s ease-out;
+    transform: scaleY(1);
+}
+
+
+@media screen and (max-width: 960px) {
+    .Header_back h1{
+        font-size: 30px;
+    }
+    .Header_head p{
+        font-size: 37px;
+    }
+}

@@ -1,0 +1,17 @@
+.Emotion_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.c1{
+    display: flex;
+    /* padding: 20px;
+    margin: 50px; */
+    width: 389px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 2px solid black;
+}

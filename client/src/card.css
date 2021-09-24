@@ -1,0 +1,159 @@
+.container{
+    max-width: 90%;
+    padding: 50px;
+}
+.card{ 
+    border-radius: 10px;
+    padding: 50px;
+    transform:scale(1);
+    transition: all 0.5s ease;
+    margin-bottom: 50px;
+    background-color:#5c4a1b00;
+    background-image: linear-gradient(to right, #cbab51 , #d4a524 ,#b1850e);
+}
+.page_con , .TabTemp{
+    width: 100%;
+    padding:0 50px 0px 50px;
+    /* padding-left: 350px; */
+}
+.card:hover{
+    transform:scale(1.03);
+    transition: all 0.5s ease;
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MuiSvgIcon-root{
+    fill: black;
+}
+.all{
+    display: flex;
+}
+.stan ,.tr{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #0e0d0d;
+}
+.top{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+
+@keyframes move{
+    0%{
+        top:350px;
+    }
+    100%{
+        top:0px;
+    }
+}
+
+
+.contact-l{
+    background-color: aqua;
+    width: 50%;
+    height: 80vh;
+    background-image: url(./img/space.jpg);
+    background-size: cover;
+    position: relative;
+    
+    box-shadow: 0 0 20px #0e0d0d;
+}
+.contact-l img{
+    width: 180px;
+    height: 300px;
+    position: absolute;
+    animation: move 5s infinite;
+    
+}
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    /* margin: 50px 300px; */
+    z-index: -1;
+    /* box-shadow: 0 0 20px #0e0d0d; */
+    border-radius: 20px;
+    transform:scale(1);
+    transition: all 0.5s ease;
+}
+.contact-card:hover{
+    transform:scale(1.03);
+    transition: all 0.5s ease;
+}
+.container-c{
+    width: 100%;
+    height: 100%;
+    padding: 50px 300px;
+    z-index:999;
+}
+.contact-r{
+    background-color:#006666;
+    width: 60%;
+    height: 80vh;
+    padding: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.contact-r>h1{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0 0 20px #0e0d0d;
+}
+.form-group{
+    padding-top: 20px;
+}
+
+.btn{
+    width: 40%;
+    font-size: 30px;
+    float: left;
+    margin-top: 30px;
+}
+input{
+    height: 50px;
+}
+::placeholder {
+    color: peachpuff;
+    font-size: 20px;
+  }
+
+
+
+  /*---------------------------------------what is gita ------------------------ */
+.whatgita .nav-link {
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.whatgita .nav-item {
+    height: 67px;
+}
+
+.TabTemp h2{
+    color: white;
+    font-size: 25px;
+}
+.TabTemp h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.TabTemp h3{
+    font-size: 20px;
+}
+
+.page_con h3{
+    font-size: 20px;
+}
+.navcon{
+    height:500px;
+    overflow-y:auto;
+    background-color: rgb(241, 241, 241);
+    background-color: #016262;
+ }
+
+.col-sm-3 {
+    background-color: #016262;
+    margin-top: -50px;
+    padding-top: 50px;
+}
